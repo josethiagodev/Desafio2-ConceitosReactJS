@@ -1,0 +1,37 @@
+/* RESET CSS */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-size: 14px; }
+
+div { width: 100%; height: auto; overflow: hidden; margin: 0; padding: 0; background-color: #dfe6e9; }
+div ul { width: 100%; height: auto; overflow: hidden; margin: 0; padding: 0; }
+div ul li { display: flex; justify-content: center; align-items: center; text-align: center; width: 100%; height: auto; overflow: hidden; margin: 0; padding: 0; }
+div ul li ul { display: flex; justify-content: center; align-items: center; max-width: 600px; height: auto; overflow: hidden; margin: 0; padding: 0; border-bottom: 1px solid #7159c1; }
+div ul li ul li {  width: auto; height: auto; overflow: hidden; margin: 0; padding: 15px 0; }
+div ul li ul li a { width: auto; height: auto; text-decoration: none; outline: none; border: 0; }
+div ul li ul li h1 { width: auto; height: auto; overflow: hidden; margin: 0; padding: 0; color: #7159c1; font-size: 1.6em; font-weight: bold; }
+div ul li ul li span { width: auto; height: auto; overflow: hidden; margin: 0; padding: 0 15px; color: #7159c1; font-size: 1.2em; font-weight: bold; }
+div ul li ul button {
+  outline: none;
+  width: auto;
+  height: auto;
+  border: 0;
+  margin: 0;
+  padding: 7px 12px;
+  background: #ca4949;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+div button {
+  outline: none;
+  display: flex;
+  background: #7159c1;
+  color: #fff;
+  border: 0;
+  margin: 20px auto;
+  padding: 15px 35px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 35px;
+}
